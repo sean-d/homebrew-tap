@@ -1,9 +1,9 @@
 class TheDeaner < Formula
   desc "Tmux-backed command center for running coding agents side by side"
   homepage "https://github.com/sean-d/the-deaner"
-  url "https://github.com/sean-d/the-deaner/releases/download/v0.2.0/the-deaner-v0.2.0-aarch64-apple-darwin.tar.gz"
-  version "0.2.0"
-  sha256 "dcab64d8e2843279cbada4d5679717fd0a68f816fb0a3fdaa194254f4872ac2d"
+  url "https://github.com/sean-d/the-deaner/releases/download/v0.2.1/the-deaner-v0.2.1-aarch64-apple-darwin.tar.gz"
+  version "0.2.1"
+  sha256 "135f57538c774acd79976ec29e5bba66ca1af63558fc9ba8f6f834faa242145d"
   license "MIT"
 
   depends_on arch: :arm64
