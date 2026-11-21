@@ -1,9 +1,9 @@
 class TheDeaner < Formula
   desc "Tmux-backed command center for running coding agents side by side"
-  homepage "https://github.com/sean-d/the-deaner"
-  url "https://github.com/sean-d/the-deaner/releases/download/v0.2.4/the-deaner-v0.2.4-aarch64-apple-darwin.tar.gz"
-  version "0.2.4"
-  sha256 "5f6d900b033f273eee0e0f474ac626cdd358f0e9a757abd2e94946e4b0773e2a"
+  homepage "https://github.com/sean-d/homebrew-tap"
+  url "https://github.com/sean-d/homebrew-tap/releases/download/the-deaner-v0.2.5/the-deaner-v0.2.5-aarch64-apple-darwin.tar.gz"
+  version "0.2.5"
+  sha256 "36393e97e8b7a91a9ca2572526f4f69a70a9efc5856445fdaa010b7a62fca6d9"
   license "MIT"
 
   depends_on arch: :arm64
@@ -19,7 +19,7 @@ class TheDeaner < Formula
     <<~EOS
       Run `the-deaner` to start. The first time, it offers to add its Claude Code hooks.
 
-      The frame keys (Alt-s, Alt-e, Alt-/) need Option to send Alt in your terminal.
+      The frame keys (Alt-s, Alt-e, Alt-n, Alt-/) need Option to send Alt in your terminal.
       Ghostty: macos-option-as-alt = true. Optional: `brew install gh` for pull request
       and CI status in the sidebar.
     EOS
