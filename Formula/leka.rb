@@ -1,9 +1,9 @@
 class Leka < Formula
   desc "Terminal mail client for Microsoft 365"
   homepage "https://github.com/sean-d/homebrew-tap"
-  url "https://github.com/sean-d/homebrew-tap/releases/download/leka-v0.2.0/leka-v0.2.0-aarch64-apple-darwin.tar.gz"
-  version "0.2.0"
-  sha256 "948075c6a1bffa6ba3fa5262da2d18a3ab7e8b74c0415f3daf8f3b8336f98055"
+  url "https://github.com/sean-d/homebrew-tap/releases/download/leka-v0.2.1/leka-v0.2.1-aarch64-apple-darwin.tar.gz"
+  version "0.2.1"
+  sha256 "2980ee2f9000571fce72b58693d0f7acf02d9563ab03b26508c46c0741b90f76"
 
   depends_on arch: :arm64
   depends_on :macos
